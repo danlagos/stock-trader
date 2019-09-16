@@ -5,9 +5,9 @@
             <button><router-link to="/portfolio" activeClass="active"><a>Portfolio</a></router-link></button>
             <button><router-link to="/stocks" activeClass="active"><a>Stocks</a></router-link></button>
         </div>
-        <button>End Day</button>
 
-        <div class="dropdown">
+        <div class="dropdown pull-right">
+            <button>End Day</button>
             <a 
                 class="btn btn-secondary dropdown-toggle" 
                 href="#" role="button" 
@@ -25,7 +25,5 @@
                 </ul>
             </div>
         </div>           
-
-
     </nav>
 </template>
